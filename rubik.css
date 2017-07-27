@@ -1,0 +1,65 @@
+body {
+    background-color: #dddddd;
+    font-family: sans-serif;
+}
+
+.simulator_controls button {
+    background-color: #b5e4ff;
+    width: 50px;
+}
+
+.scramble {
+    font-size: 24px;
+    color: navy;
+    background-color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    padding: 30px;
+    border: 2px solid red;
+}
+
+.scramble.reverse {
+    color: orange;
+    border: 2px solid blue;
+}
+
+#display_timer {
+    font-family: monospace;
+    font-size: 72px;
+    color: lime;
+    background-color: green;
+    text-align: center;
+    margin: 20px;
+    padding: 60px;
+    border: 3px dotted lime;
+}
+
+.sticker {
+    width: 40px;
+    height: 40px;
+    border: 2px outset;
+}
+
+.sticker.R {
+    background-color: red;
+}
+
+.sticker.G {
+    background-color: green;
+}
+
+.sticker.B {
+    background-color: blue;
+}
+
+.sticker.Y {
+    background-color: yellow;
+}
+
+.sticker.W {
+    background-color: white;
+}
+
+.sticker.O {
+    background-color: orange;
+}

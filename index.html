@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rubik Timer</title>
+    <link rel="stylesheet" type="text/css" href="rubik.css">
+    <script type="text/javascript" src="rubik.js"></script>
+</head>
+<body>
+
+<h1>Rubik Timer</h1>
+
+<div id="display_scramble" class="scramble">
+    F B R L U D F' B' R' L' U' D' F2 B2 R2 L2 U2 D2
+</div>
+
+<div id="display_reverse" class="scramble reverse">
+    F B R L U D F' B' R' L' U' D' F2 B2 R2 L2 U2 D2
+</div>
+
+<div id="display_timer">
+    00:00:00.000
+</div>
+
+<div class="timer_controls">
+    <button id="NewScramble">New Scramble</button>
+    <button id="ToggleTimer">Start</button>
+    <button id="TestInit">Reset Cube</button>
+    <button id="TestScramble">Test Scramble</button>
+    <button id="TestReverse">Test Reverse</button>
+</div>
+
+<div id="cube_chart">
+</div>
+
+<div class="simulator_controls">
+    <table>
+        <tbody>
+            <tr>            
+                <td><button class="move_control">F</button></td>
+                <td><button class="move_control">B</button></td>
+                <td><button class="move_control">R</button></td>
+                <td><button class="move_control">L</button></td>
+                <td><button class="move_control">U</button></td>
+                <td><button class="move_control">D</button></td>
+            </tr>
+            <tr>
+                <td><button class="move_control">F'</button></td>
+                <td><button class="move_control">B'</button></td>
+                <td><button class="move_control">R'</button></td>
+                <td><button class="move_control">L'</button></td>
+                <td><button class="move_control">U'</button></td>
+                <td><button class="move_control">D'</button></td>
+            </tr>
+            <tr>
+                <td><button class="move_control">F2</button></td>
+                <td><button class="move_control">B2</button></td>
+                <td><button class="move_control">R2</button></td>
+                <td><button class="move_control">L2</button></td>
+                <td><button class="move_control">U2</button></td>
+                <td><button class="move_control">D2</button></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>
